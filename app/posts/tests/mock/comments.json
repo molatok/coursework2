@@ -1,0 +1,22 @@
+[
+  {
+    "post_pk": 1,
+    "commenter_name": "leo",
+    "comment": "Очень здорово!",
+    "pk": 1
+  },
+
+    {
+    "post_pk": 1,
+    "commenter_name": "jerry",
+    "comment": "Очень здорово!",
+    "pk": 2
+  },
+
+    {
+    "post_pk": 2,
+    "commenter_name": "hanna",
+    "comment": "Очень здорово!",
+    "pk": 7
+  }
+  ]
