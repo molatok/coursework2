@@ -9,7 +9,7 @@ posts_blueprint = Blueprint("posts_blueprint", __name__, template_folder="templa
 posts_dao = PostsDAO("data/posts.json")
 comments_dao = CommentsDAO("data/comments.json")
 
-logger = logging.getLogger("basic")
+logger = logging.getLogger("logs.log")
 
 
 @posts_blueprint.route("/")

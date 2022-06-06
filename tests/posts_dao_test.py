@@ -9,7 +9,7 @@ class TestPostsDao:
     @pytest.fixture
     def posts_dao(self):
         # print(os.getcwd())
-        return PostsDAO("../../../data/posts.json")
+        return PostsDAO("data/posts.json")
     
     @pytest.fixture
     def keys_expected(self):
